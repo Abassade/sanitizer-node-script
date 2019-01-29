@@ -1,0 +1,15 @@
+{
+  "name": "sanitizer",
+  "version": "1.0.0",
+  "description": "phone number sanitizer",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Abass Ade",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.16.4",
+    "node-phonenumber": "^1.0.0"
+  }
+}
