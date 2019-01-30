@@ -13,7 +13,8 @@ module.exports = {
     },
     getSanitizer: (req, res)=>{
         const phoneParams = req.query.phoneNumber;
-        const value_me = new ValueResponse(phoneParams)
+        const region = req.query.region;
+        const value_me = new ValueResponse(phoneParams, region)
         .value()
         res.json({
             error: false,
