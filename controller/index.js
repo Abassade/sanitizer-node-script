@@ -28,5 +28,12 @@ module.exports = {
             statusCode:200,
             message: 'Welcome to sanitizer api'
         });
+    },
+    doSomethingFunny: (req, res)=>{
+        res.json({
+            error: false,
+            statusCode:200,
+            message: 'Welcome to sanitizer api'
+        });
     }
 }
